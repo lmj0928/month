@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+   /* background: pink; */
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background: #ffa168;
+     width: 100%;
+     height: 45px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      border-bottom: 1px solid #ccc;
+}
+header p{
+    color: white;
+    font-size: 20px;
+}
+section{
+    flex: 1;
+    overflow: auto;
+   /* background: blue; */
+    border-bottom: 1px solid #ccc;
+}
+.list{
+	 width: 100%;
+	 height: auto;
+}
+.list li{
+	 width: 100%;
+	height: 100px;
+	/* background: indianred; */
+	  border-bottom: 1px solid #ccc;
+	  float: left;
+}
+.mz{
+	 color: black;
+	 font-size: 22px;
+	 margin-left: 15px;
+}
+.telphone{
+	 color: darkslategrey;
+	 font-size: 16px;
+	  margin-top:10px;
+	   margin-left: 15px;
+}
+.add{
+	 color: darkgrey;
+	 font-size: 17px;
+	   margin-top:10px;
+	  margin-left: 15px;
+}
+.del{
+	width: 70px;
+	height: 30px;
+	border: 1px solid grey;
+	border-radius: 25px;
+	margin-left: 190px;
+	  margin-top:-60px;
+}
+.update{
+	width: 70px;
+	height: 30px;
+	border: 1px solid grey;
+	border-radius: 25px;
+	margin-left: 280px;
+	  margin-top:-80px;
+}
+footer{
+      width: 100%;
+     height: 45px;
+     display: flex;
+       align-items: center;
+     justify-content: center;
+	 /*background: coral;*/
+}
+footer .btn{
+  width: 100%;
+     height: 45px;
+     color: white;
+      font-size: 20px;
+     border-radius: 25px;
+      background: coral;
+}
